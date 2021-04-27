@@ -15,10 +15,10 @@ chandler:
     database:
         dsn: "mysql:host=localhost;dbname=openvk"
         user: "root"
-        password: ""
+        password: "DATABASE_PASSWORD"
     
     security:
-        secret: ""
+        secret: "SECRET_KEY_HERE"
         csrfProtection: "permissive"
         extendedValidation: false
         sessionDuration: 14
