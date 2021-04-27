@@ -1,7 +1,7 @@
 chandler:
     debug: true
     websiteUrl: null
-    rootApp:    "root"
+    rootApp:    "openvk"
     
     preferences:
         appendExtension: "xhtml"
@@ -13,9 +13,9 @@ chandler:
         allEnabled: false
     
     database:
-        dsn: "mysql:host=localhost;dbname=db"
+        dsn: "mysql:host=localhost;dbname=openvk"
         user: "root"
-        password: "root"
+        password: ""
     
     security:
         secret: ""
