@@ -24,6 +24,7 @@ class Bootstrap
     {
         Debugger::enable((CHANDLER_ROOT_CONF["debug"] ? Debugger::DEVELOPMENT : Debugger::PRODUCTION), __DIR__ . "/../logs");
         Debugger::getBar()->addPanel(new Chandler\Debug\DatabasePanel);
+        Debugger::$showBar = false;
     }
     
     private function loadConfig(): void
